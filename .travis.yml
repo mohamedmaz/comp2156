@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "20"
+
+script:
+  - cd lab04
+  - npm ci
+  - npm test
+  - npm run build
